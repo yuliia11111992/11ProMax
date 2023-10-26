@@ -1,0 +1,99 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  list-style: none;
+  margin-bottom: 0;
+
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background: #181818;
+  color: #fff;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("Graphik-LightItalic.eot");
+  src: local("Graphik Light Italic"), local("Graphik-LightItalic"),
+    url("Graphik-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("Graphik-LightItalic.woff2") format("woff2"),
+    url("Graphik-LightItalic.woff") format("woff"),
+    url("Graphik-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("Graphik-MediumItalic.eot");
+  src: local("Graphik Medium Italic"), local("Graphik-MediumItalic"),
+    url("Graphik-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("Graphik-MediumItalic.woff2") format("woff2"),
+    url("Graphik-MediumItalic.woff") format("woff"),
+    url("Graphik-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+.container {
+  min-width: 549px;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 16px 14px 24px;
+  align-items: center;
+}
+.logo {
+  padding: 10px;
+}
+.login_button {
+  height: 100%;
+  padding: 20px 36px;
+  margin-left: 82px;
+  background-color: #181818;
+  border: 1px solid #fff;
+}
+.login_button_name {
+  padding: 10px;
+  color: #ffffff;
+  align-items: center;
+}
+.burger-btn {
+  background-color: #181818;
+  border: none;
+  margin-left: 16px;
+}
+.icon_burger {
+  color: #ffffff;
+}
