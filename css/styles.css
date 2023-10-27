@@ -73,6 +73,7 @@ body {
   justify-content: space-between;
   padding: 15px 16px 14px 24px;
   align-items: center;
+  min-width: 549px;
 }
 .logo {
   padding: 10px;
@@ -101,4 +102,79 @@ body {
 }
 .icon_burger {
   color: #ffffff;
+}
+.work_container {
+  margin: 57px 0 57px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container_item {
+  width: 314px;
+  color: #fff;
+  text-align: center;
+  font-family: Graphik;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+.work_text {
+  width: 382px;
+  height: 120px;
+  color: #fff;
+  text-align: center;
+  font-family: Graphik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  padding: 10px;
+}
+.work_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button_try {
+  width: 178px;
+  height: 65px;
+  color: #fff;
+  font-family: Graphik;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.47;
+  letter-spacing: 0.01em;
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  background: #4452fe;
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 21px;
+}
+.button_try_name {
+  padding: 10px;
+}
+
+.button_learn {
+  width: 174px;
+  height: 65px;
+  color: #fff;
+  font-family: Graphik;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.47;
+  letter-spacing: 0.01em;
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  background-color: #181818;
+  margin-bottom: 57px;
+}
+.button_learn_name {
+  padding: 10px;
 }
