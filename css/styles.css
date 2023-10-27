@@ -178,3 +178,8 @@ body {
 .button_learn_name {
   padding: 10px;
 }
+.main_image {
+  width: 244.817px;
+  height: 225.985px;
+  flex-shrink: 0;
+}
