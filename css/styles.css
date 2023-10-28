@@ -184,18 +184,23 @@ body {
   height: 435px;
   background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0e0e0e 100%);
 position: relative;
+overflow: hidden;
 }
 .main_image {
   width: 375px;
   margin-left: 68px;
   }
 .main_image_left {
-  width: 246px;
+width: 373px;
   height: 285px;
- position: absolute;
+  position: absolute;
+  left: -118px;
+  top: 153px;
 }
 .main_image_right {
-  width: 285px;
-  height: 292px;
-  position: absolute;
+  width: 400px;
+    height: 292px;
+    position: absolute;
+    top: 142px;
+    left: 246px;
 }
