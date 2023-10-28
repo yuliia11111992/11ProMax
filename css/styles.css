@@ -177,9 +177,26 @@ body {
 }
 .button_learn_name {
   padding: 10px;
+  background-color: #181818;
+}
+.main_image_block {
+  position: relative;
 }
 .main_image {
   width: 244.817px;
   height: 225.985px;
   flex-shrink: 0;
+  position: absolute;
+  display: grid;
+}
+.main_image_left {
+  width: 245.194px;
+  height: 225.985px;
+  flex-shrink: 0;
+  position: absolute;
+}
+.main_image_right {
+  width: 245.194px;
+  height: 237.284px;
+  position: absolute;
 }
