@@ -182,19 +182,20 @@ body {
 .main_image_block {
   width: 540px;
   height: 435px;
+  background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0e0e0e 100%);
+position: relative;
 }
 .main_image {
   width: 375px;
   margin-left: 68px;
-  background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #0e0e0e 100%);
-}
+  }
 .main_image_left {
-  width: 245px;
-  flex-shrink: 0;
-  margin-top: -131px;
-  margin-left: 10px;
+  width: 246px;
+  height: 285px;
+ position: absolute;
 }
 .main_image_right {
-  width: 245px;
-  display: flex;
+  width: 285px;
+  height: 292px;
+  position: absolute;
 }
