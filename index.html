@@ -22,7 +22,7 @@
   </head>
   <body>
     <header class="mobile-head">
-      <div class="header_container">
+      <div class="container header_container">
         <img
           class="logo"
           srcset="./images/logo1X.jpg 1x, ./images/logo2X.jpg 2x"
@@ -43,7 +43,7 @@
     <main>
       <!-- container 1 -->
 
-      <div class="work_container">
+      <div class="container work_container">
         <h1 class="container_item">Work at the speed of thought.</h1>
         <p class="work_text">
           Most calendars are designed for teams. Slate is designed for
@@ -52,32 +52,38 @@
           their schedule.
         </p>
       </div>
-      <div class="work_button">
+      <div class="container work_button">
         <button class="button_try" type="button">
           <span class="button_try_name">Try For Free</span>
         </button>
         <button class="button_learn" type="button">
           <span class="button_learn_name"> Learn More </span>
         </button>
-        <div class="main_image_block">
-          <img
-            class="main_image"
-            src="./images/Dashboard1X.jpg"
-            alt="Dashboard1X"
-          />
-          <!---
-          <img
-            class="main_image_left"
-            src="./images/Boards1X.jpg"
-            alt="Boards1X"
-          />
-      
-          <img
-            class="main_image_right"
-            src="./images/Chatright1X.jpg"
-            alt="Chatright1X"
-          />
-          ---->
+
+        <div class="container main_image_block">
+          <div class="main_image_container">
+            <img
+              class="main_image"
+              srcset="./images/Dashboard1X.jpg 1x, ./images/Dashboard2X.jpg 2x"
+              src="./images/Dashboard1X.jpg"
+              alt="Dashboard1X"
+            />
+          </div>
+          <div class="main_image_left">
+            <img
+              class="main_image_left"
+              srcset="./images/Boards1X.jpg 1x, ./images/Boards2X.jpg 2x"
+              src="./images/Boards1X.jpg"
+              alt="Boards1X"
+            />
+          </div>
+          <div class="main_image_right_container">
+            <img
+              class="main_image_right"
+              src="./images/Chatright1X.jpg"
+              alt="Chatright1X"
+            />
+          </div>
         </div>
       </div>
     </main>
