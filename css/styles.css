@@ -187,8 +187,11 @@ position: relative;
 overflow: hidden;
 }
 .main_image {
-  width: 375px;
-  margin-left: 68px;
+  width: 245px;
+    height: 226px;
+    margin-left: 153px;
+    margin-top: 25px;
+    transform: rotate(-45deg) skew(10deg, 10deg);
   }
 .main_image_left {
 width: 373px;
@@ -203,4 +206,5 @@ width: 373px;
     position: absolute;
     top: 142px;
     left: 246px;
+    translate: 45px;
 }
