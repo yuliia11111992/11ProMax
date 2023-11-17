@@ -42,39 +42,16 @@ body {
   background: #181818;
   color: #fff;
 }
-@font-face {
-  font-family: "Graphik";
-  src: url("Graphik-LightItalic.eot");
-  src: local("Graphik Light Italic"), local("Graphik-LightItalic"),
-    url("Graphik-LightItalic.eot?#iefix") format("embedded-opentype"),
-    url("Graphik-LightItalic.woff2") format("woff2"),
-    url("Graphik-LightItalic.woff") format("woff"),
-    url("Graphik-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
 
-@font-face {
-  font-family: "Graphik";
-  src: url("Graphik-MediumItalic.eot");
-  src: local("Graphik Medium Italic"), local("Graphik-MediumItalic"),
-    url("Graphik-MediumItalic.eot?#iefix") format("embedded-opentype"),
-    url("Graphik-MediumItalic.woff2") format("woff2"),
-    url("Graphik-MediumItalic.woff") format("woff"),
-    url("Graphik-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-}
 .container {
   min-width: 549px;
 }
 .header_container {
   width: 549px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 15px 16px 14px 24px;
   align-items: center;
-  min-width: 549px;
 }
 .logo {
   padding: 10px;
@@ -82,9 +59,9 @@ body {
 .login_button {
   height: 100%;
   padding: 20px 36px;
-  margin-left: 82px;
   background-color: #181818;
   border: 1px solid #fff;
+  margin-left: 82px;
 }
 .login_button_name {
   padding: 10px;
@@ -203,4 +180,20 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.19;
 letter-spacing: 0.003em;
+}
+
+.section_features_text{
+  color: #FFF;
+text-align: center;
+font-family: Graphik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.01em;
+width: 402px;
+margin-top: 27px;
+display: flex;
+justify-content: center;
+margin: auto;
 }
