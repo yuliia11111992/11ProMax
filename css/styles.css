@@ -46,3 +46,31 @@ body {
 .container {
 min-width: 549px;
 }
+.header_container{
+display: flex;
+padding: 15px 16px 14px 24px;
+justify-content: flex-end;
+align-items: center;
+gap: 82px;
+align-self: stretch;
+}
+.header_btn{
+  width: 139px;
+  display: flex;
+height: 52px;
+padding: 20px 36px;
+align-items: center;
+  border: 1px solid #FFF;
+box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+background-color: #181818;
+}
+.header_btn_name{
+  color: #FFF;
+font-family: Graphik;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 1,47;
+letter-spacing: 0,001em;
+padding: 10px;
+}
