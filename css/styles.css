@@ -113,6 +113,7 @@ width: 294px;
 height: 186px;
 display: flex;
 padding: 10px;
+
 }
 .main_text{
   padding: 20px 10px 10px 10px;
@@ -123,6 +124,7 @@ line-height: 1.5;
 letter-spacing: 0.2px;
 width: 382px;
 height: 120px;
+
 }
 .button_container{
   display: flex;
@@ -141,6 +143,7 @@ font-size: 17px;
 font-weight: 500;
 line-height: 1.47;
 letter-spacing: 0.01em;
+
 }
 .btn_learn{
 width: 174px;
@@ -154,6 +157,7 @@ font-size: 17px;
 font-weight: 500;
 line-height: 1.47;
 letter-spacing: 0.01em;
+
 }
 .image-container{
   position: relative;
@@ -161,6 +165,7 @@ letter-spacing: 0.01em;
   height: 435px; 
   overflow: hidden;
   display: flex;
+  
 
 }
 
