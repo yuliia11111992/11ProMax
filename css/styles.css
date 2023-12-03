@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url('Graphik-Medium.eot');
+  src: local('Graphik Medium'), local('Graphik-Medium'),
+      url('Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+      url('Graphik-Medium.woff2') format('woff2'),
+      url('Graphik-Medium.woff') format('woff'),
+      url('Graphik-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -52,6 +64,7 @@ display: flex;
 padding: 15px 16px 14px 24px;
 justify-content: center;
 align-items: center;
+margin-bottom: 57px;
 }
 .logo{
   margin-right: 82px;
@@ -85,4 +98,33 @@ background-color: #181818;
 fill: #FFFFFF;
 width: 66px;
 height: 53px;
+}
+.hero{
+
+}
+.main_item{
+  color: #FFF;
+text-align: center;
+font-family: Graphik;
+font-size: 52px;
+font-weight: 500;
+line-height: 1.19;
+letter-spacing: 0.03em;
+width: 294px;
+height: 186px;
+display: flex;
+padding: 10px;
+margin: auto;
+}
+.main_text{
+  padding: 10px;
+  color: #FFF;
+text-align: center;
+font-size: 20px;
+line-height: 1.5;
+letter-spacing: 0.2px;
+width: 382px;
+height: 120px;
+margin: auto;
+
 }
