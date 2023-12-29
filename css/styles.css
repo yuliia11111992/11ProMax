@@ -208,6 +208,9 @@ line-height: 1.5;
 letter-spacing: 0.01em;
 margin: 27px 0;
 }
+.features_container{
+  padding: 1px 23px 16px 28px;
+}
 .second_container_img{
   width: 324px;
   height: 319px;
