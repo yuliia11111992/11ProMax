@@ -182,3 +182,41 @@ margin: auto;
   height: 100%;
   background: linear-gradient(180deg, rgba(30, 30, 30, 0.00) 0%, #0E0E0E 100%);
 }
+
+.features{
+margin: 110px 0;
+padding: 62px 50px;
+}
+.second_container_item{
+color: #FFF;
+font-family: Graphik;
+font-size: 52px;
+font-weight: 400;
+line-height: 1.19;
+letter-spacing: 0.003em;
+display: flex;
+justify-content: center;
+}
+
+.features_text{
+color:#FFF;
+text-align: center;
+font-family: Graphik;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.01em;
+margin: 27px 0;
+}
+.second_container_img{
+  width: 324px;
+  height: 319px;
+margin: auto;
+}
+
+.second_container_line{
+width: 252px;
+height: 180px;
+margin: auto;
+margin-top: -120px;
+}
