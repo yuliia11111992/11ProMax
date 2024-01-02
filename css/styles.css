@@ -225,17 +225,22 @@ margin-top: -120px;
 }
 
 .first_icon_list{
+ margin: auto;
+  width: 309px;
   padding: 20px;
 margin-top: 27px;
 }
 
 .first_icon_section{
-  padding: 19px 3px;
   fill: #02E4C0;
 }
 
 .icon_section_section{
-display: flex;
+gap: 25px;
+}
+.icon_container{
+  display: flex;
+  align-items: center;
 }
 .icon_section_text{
 color: #FFF;
@@ -247,6 +252,16 @@ letter-spacing: 0.005em;
 display: flex;
 padding: 10px;
 align-items: center;
+}
 
+.features_container_text{
+  color: #FFF;
+font-family: Graphik;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.01em;
+padding: 10px;
+margin-bottom: 20px;
 }
 
