@@ -223,3 +223,30 @@ height: 180px;
 margin: auto;
 margin-top: -120px;
 }
+
+.first_icon_list{
+  padding: 20px;
+margin-top: 27px;
+}
+
+.first_icon_section{
+  padding: 19px 3px;
+  fill: #02E4C0;
+}
+
+.icon_section_section{
+display: flex;
+}
+.icon_section_text{
+color: #FFF;
+font-family: Graphik;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.005em;
+display: flex;
+padding: 10px;
+align-items: center;
+
+}
+
