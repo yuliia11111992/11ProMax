@@ -233,11 +233,16 @@ margin-top: 27px;
 
 .first_icon_section{
   fill: #02E4C0;
+  transition: fill 0.3s ease;
+}
+.first_icon_section:hover{
+  fill: #4452FE;
 }
 
 .icon_section_section{
 gap: 25px;
 }
+
 .icon_container{
   display: flex;
   align-items: center;
